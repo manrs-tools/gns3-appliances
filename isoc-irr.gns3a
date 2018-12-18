@@ -1,0 +1,39 @@
+{
+    "name": "ISOC Lab IRR",
+    "category": "guest",
+    "symbol": ":/symbols/qemu_guest.svg",
+    "description": "This is an IRR for the ISOC Labs Manager",
+    "vendor_name": "ISOC",
+    "vendor_url": "https://www.internetsociety.org/",
+    "documentation_url": "https://www.internetsociety.org/",
+    "product_name": "ISOC Labs Manager - IRR",
+    "registry_version": 3,
+    "status": "stable",
+    "maintainer": "Sander Steffann",
+    "maintainer_email": "sander@steffann.nl",
+    "usage": "This template is probably only useful together with the ISOC Labs Manager.",
+    "qemu": {
+        "adapter_type": "e1000",
+        "adapters": 1,
+        "ram": 128,
+        "arch": "x86_64",
+        "console_type": "telnet",
+        "kvm": "allow"
+    },
+    "images": [
+        {
+            "filename": "isoc-irr-0.2.img",
+            "version": "0.1",
+            "md5sum": "e5fd9c9075af7842c40ae9937e4d397b",
+            "filesize": 384172032
+        }
+    ],
+    "versions": [
+        {
+            "name": "0.2",
+            "images": {
+                "hda_disk_image": "isoc-irr-0.2.img"
+            }
+        }
+    ]
+}
