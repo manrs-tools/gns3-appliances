@@ -25,7 +25,8 @@
             "filename": "isoc-irr-0.2.img",
             "version": "0.1",
             "md5sum": "e5fd9c9075af7842c40ae9937e4d397b",
-            "filesize": 384172032
+            "filesize": 384172032,
+            "download_url": "https://github.com/MANRS-Lab/GNS3-Appliances/raw/master/isoc-irr-0.2.img"
         }
     ],
     "versions": [

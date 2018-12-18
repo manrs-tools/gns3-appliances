@@ -25,7 +25,8 @@
             "filename": "isoc-monitor-0.5.img",
             "version": "0.5",
             "md5sum": "ba4e3ef6b736cde6040a9c3b4256c675",
-            "filesize": 22413312
+            "filesize": 22413312,
+            "download_url": "https://github.com/MANRS-Lab/GNS3-Appliances/raw/master/isoc-monitor-0.5.img"
         }
     ],
     "versions": [
