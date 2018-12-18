@@ -1,0 +1,39 @@
+{
+    "name": "ISOC Lab Monitor",
+    "category": "guest",
+    "symbol": ":/symbols/router.svg",
+    "description": "This is a configurable network monitor for the ISOC Labs Manager",
+    "vendor_name": "ISOC",
+    "vendor_url": "https://www.internetsociety.org/",
+    "documentation_url": "https://www.internetsociety.org/",
+    "product_name": "ISOC Labs Manager - Network Monitor",
+    "registry_version": 3,
+    "status": "stable",
+    "maintainer": "Sander Steffann",
+    "maintainer_email": "sander@steffann.nl",
+    "usage": "This template is probably only useful together with the ISOC Labs Manager.\n\nConfigure everything in /opt/settings.sh",
+    "qemu": {
+        "adapter_type": "e1000",
+        "adapters": 1,
+        "ram": 128,
+        "arch": "x86_64",
+        "console_type": "telnet",
+        "kvm": "allow"
+    },
+    "images": [
+        {
+            "filename": "isoc-monitor-0.5.img",
+            "version": "0.5",
+            "md5sum": "ba4e3ef6b736cde6040a9c3b4256c675",
+            "filesize": 22413312
+        }
+    ],
+    "versions": [
+        {
+            "name": "0.5",
+            "images": {
+                "hda_disk_image": "isoc-monitor-0.5.img"
+            }
+        }
+    ]
+}
