@@ -1,0 +1,40 @@
+{
+    "name": "ISOC Lab Routinator",
+    "category": "guest",
+    "symbol": ":/symbols/qemu_guest.svg",
+    "description": "This is a Routinator instance for the ISOC Labs Manager",
+    "vendor_name": "ISOC",
+    "vendor_url": "https://www.internetsociety.org/",
+    "documentation_url": "https://www.internetsociety.org/",
+    "product_name": "ISOC Labs Manager - Routinator",
+    "registry_version": 3,
+    "status": "stable",
+    "maintainer": "Sander Steffann",
+    "maintainer_email": "sander@steffann.nl",
+    "usage": "This template is probably only useful together with the ISOC Labs Manager.",
+    "qemu": {
+        "adapter_type": "virtio-net-pci",
+        "adapters": 2,
+        "ram": 512,
+        "arch": "x86_64",
+        "console_type": "telnet",
+        "kvm": "allow"
+    },
+    "images": [
+        {
+            "filename": "isoc-routinator-0.1.img",
+            "version": "0.1",
+            "md5sum": "5bad23cbf8033447b745f8fcb0a64b6c",
+            "filesize": 1359740928,
+            "download_url": "https://github.com/MANRS-Lab/GNS3-Appliances/raw/master/isoc-routinator-0.1.img"
+        }
+    ],
+    "versions": [
+        {
+            "name": "0.1",
+            "images": {
+                "hda_disk_image": "isoc-routinator-0.1.img"
+            }
+        }
+    ]
+}
